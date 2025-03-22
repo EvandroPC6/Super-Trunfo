@@ -31,7 +31,7 @@ int main(){
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    //
+    //cadastro da proxima carta
     printf("adicione a segunda carta: \n");
 
     //carta2
@@ -56,7 +56,7 @@ int main(){
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    //
+    //impressão carta1
     printf("Carta1:\nEstado: %c\n", estado1);
     printf("Código: %c%s\n", estado1, codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -65,6 +65,7 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
 
+    //impressão carta2
     printf("Carta2:\nEstado: %c\n", estado2);
     printf("Código: %c%s\n", estado2, codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
